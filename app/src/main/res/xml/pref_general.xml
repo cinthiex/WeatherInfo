@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_header_general">
+
+        <ListPreference
+            android:key="defaultCountry"
+            android:title="Favorite City"
+            android:defaultValue="Cochabamba"
+            android:entries="@array/pref_teams_list_titles"
+            android:entryValues="@array/pref_teams_list_values"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null" />
+
+        </PreferenceCategory>
+
+    <!--<EditTextPreference-->
+        <!--android:key="Buscar Ciudad"-->
+        <!--android:title="@string/pref_find_country"-->
+        <!--android:summary="@string/pref_summary_ndays"-->
+        <!--android:inputType="number"-->
+        <!--/>-->
+
+
+
+</PreferenceScreen>

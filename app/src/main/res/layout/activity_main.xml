@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+tools:context=".MainActivity">
+
+<ImageView
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:id="@+id/image_header"
+    android:src="@drawable/header_wheater"
+    android:scaleType="center"/>
+
+    <TextView
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BOLIVIA"
+        android:id="@+id/textView" />
+    <ListView
+        android:id="@+id/main_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:dividerHeight="1dp" />
+
+    <!--android:divider="@color/dividerColor"-->
+
+</LinearLayout>
